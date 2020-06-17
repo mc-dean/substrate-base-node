@@ -23,6 +23,6 @@ jobs:
         command: check
         args: --workspace
     - uses: actions-rs/cargo@v1
-        with:
-          command: build
-          args: --workspace
+      with:
+        command: build
+        args: --workspace
